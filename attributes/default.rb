@@ -18,5 +18,12 @@
 #
 
 default['sysinternals']['install_dir'] = 'C:\Program Files\SysInternals'
-default['sysinternals']['tools']['Process Monitor']='http://live.sysinternals.com/Procmon.exe'
-default['sysinternals']['tools']['BGInfo']='http://live.sysinternals.com/Bginfo.exe'
+default['sysinternals']['tools'] = {
+  'AccessEnum' => 'http://live.sysinternals.com/AccessEnum.exe',
+  'ADExplorer' => 'http://live.sysinternals.com/ADExplorer.exe',
+  'ADInsight' => 'http://live.sysinternals.com/adinsight.exe',
+  'Autologon' => 'http://live.sysinternals.com/Autologon.exe',
+  'Autoruns' => 'http://live.sysinternals.com/autoruns.exe',
+  'BGInfo' => 'http://live.sysinternals.com/Bginfo.exe',
+  'Process Monitor' => 'http://live.sysinternals.com/Procmon.exe'
+}
