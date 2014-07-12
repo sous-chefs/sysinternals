@@ -1,6 +1,7 @@
-# Microsoft SysInternals Cookbook
+Microsoft SysInternals Cookbook
+===============================
 
-Under heavy construction, but usable
+:construction:
 
 Author:: Julian C. Dunn (<jdunn@getchef.com>)
 Copyright:: 2014 Chef Software, Inc.
