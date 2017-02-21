@@ -25,7 +25,7 @@ default['sysinternals']['tools'] = {
   'Autologon' => 'http://live.sysinternals.com/Autologon.exe',
   'Autoruns' => 'http://live.sysinternals.com/autoruns.exe',
   'BGInfo' => 'http://live.sysinternals.com/Bginfo.exe',
-  'Process Monitor' => 'http://live.sysinternals.com/Procmon.exe'
+  'Process Monitor' => 'http://live.sysinternals.com/Procmon.exe',
 }
 
 default['sysinternals']['procexp']['name'] = 'Process Explorer'
