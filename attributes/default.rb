@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-default['sysinternals']['install_dir'] = 'C:\Program Files\SysInternals'
+default['sysinternals']['install_dir'] = 'C:/Program Files/SysInternals'
 default['sysinternals']['tools'] = {
   'AccessEnum' => 'http://live.sysinternals.com/AccessEnum.exe',
   'ADExplorer' => 'http://live.sysinternals.com/ADExplorer.exe',
@@ -27,3 +27,7 @@ default['sysinternals']['tools'] = {
   'BGInfo' => 'http://live.sysinternals.com/Bginfo.exe',
   'Process Monitor' => 'http://live.sysinternals.com/Procmon.exe'
 }
+
+default['sysinternals']['procexp']['name'] = 'Process Explorer'
+default['sysinternals']['procexp']['url'] =  'http://live.sysinternals.com/procexp.exe'
+default['sysinternals']['procexp']['replace_taskmgr'] = true
