@@ -35,12 +35,13 @@ node['sysinternals']['tools'].each do |toolname,url|
   end
   #disable popup, we accept the EULA!
   # http://peter.hahndorf.eu/blog/2010/03/07/WorkAroundSysinternalsLicensePopups.aspx
-  registry_key "HKEY_CURRENT_USER\Software\Sysinternals\#{toolname}" do
+  registry_key "HKEY_CURRENT_USER\\Software\\Sysinternals\\#{toolname}" do
     values [{
       :name => 'EulaAccepted',
       :type => :dword,
       :data => 1
     }]
     action :create
+    recursive true
   end
 end
