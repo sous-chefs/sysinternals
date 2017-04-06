@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: sysinternals
+# Cookbook:: sysinternals
 # Attributes:: default
 #
 # Copyright:: 2013-2017, Chef Software, Inc.
