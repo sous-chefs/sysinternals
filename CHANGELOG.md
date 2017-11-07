@@ -2,6 +2,13 @@
 
 This file is used to list changes made in each version of the sysinternals cookbook.
 
+## 1.1.0 (2017-11-06)
+
+- Test with Local Delivery instead of Rake
+- Added basic chefspec
+- Update apache2 license string
+- Add new recipe to setup the full Sysinternals Suite
+
 ## 1.0.1 (2017-02-21)
 
 - Add windows as a supported platform in the metadata
