@@ -28,4 +28,4 @@ windows_zipfile node['sysinternals']['install_dir'] do
   not_if { ::File.exist?(::File.join(node['sysinternals']['install_dir'], 'PsExec.exe')) }
 end
 
-windosw_path node['sysinternals']['install_dir']
+windows_path node['sysinternals']['install_dir']
