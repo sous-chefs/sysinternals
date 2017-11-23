@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the sysinternals cookbook.
 
+## 1.1.1 (2017-11-22)
+
+- Fix typo in full_suite recipe
+
 ## 1.1.0 (2017-11-06)
 
 - Test with Local Delivery instead of Rake
