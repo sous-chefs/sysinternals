@@ -16,16 +16,29 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+version = if node['sysinternals']['full_suite']['checksum'].nil?
+            'no_version'
+          else
+            @node['sysinternals']['full_suite']['checksum'].to_s
+          end
 
-directory node['sysinternals']['install_dir'] do
+node.default['sysinternals']['install_dir_version'] = "#{node['sysinternals']['install_dir_full']}-#{version}"
+
+directory node['sysinternals']['install_dir_version'] do
   action :create
 end
 
-windows_zipfile node['sysinternals']['install_dir'] do
+archive_file node['sysinternals']['install_dir_version'] do
   action :unzip
   source node['sysinternals']['full_suite']['url']
   checksum node['sysinternals']['full_suite']['checksum'] unless node['sysinternals']['full_suite']['checksum'].nil?
   not_if { ::File.exist?(::File.join(node['sysinternals']['install_dir'], 'PsExec.exe')) }
+  notifies :create, "link[@node['sysinternals']['install_dir_version'].to_s]", :immediately
 end
 
-windows_path node['sysinternals']['install_dir']
+link @node['sysinternals']['install_dir_version'].to_s do
+  to @node['sysinternals']['install_dir_full'].to_s
+  action :nothing
+end
+
+windows_path node['sysinternals']['install_dir_full']
