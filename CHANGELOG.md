@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the sysinternals cookbook.
 
+## Unreleased
+
+- Standardise files with files in sous-chefs/repo-management
+
 ## 1.1.1 (2017-11-22)
 
 - Fix typo in full_suite recipe
