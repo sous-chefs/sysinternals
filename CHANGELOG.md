@@ -2,6 +2,8 @@
 
 This file is used to list changes made in each version of the sysinternals cookbook.
 
+## Unreleased
+
 ## 1.1.4 - *2022-01-18*
 
 - resolved cookstyle error: recipes/default.rb:34:5 refactor: `Chef/RedundantCode/UseCreateIfMissing`
