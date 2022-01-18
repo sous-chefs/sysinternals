@@ -31,7 +31,7 @@ node['sysinternals']['tools'].each do |toolname, url|
   exe = ::File.join(node['sysinternals']['install_dir'], ::File.basename(url))
   remote_file exe do
     source url
-    not_if { ::File.exist? exe }
+    action :create_if_missing
   end
   # disable popup, we accept the EULA!
   # http://peter.hahndorf.eu/blog/2010/03/07/WorkAroundSysinternalsLicensePopups.aspx

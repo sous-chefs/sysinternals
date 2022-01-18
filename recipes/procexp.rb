@@ -19,7 +19,7 @@ end
 exe = ::File.join(node['sysinternals']['install_dir'], ::File.basename(node['sysinternals']['procexp']['url']))
 remote_file exe do
   source node['sysinternals']['procexp']['url']
-  not_if { ::File.exist? exe }
+  action :create_if_missing
 end
 
 # Accept the EULA
