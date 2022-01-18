@@ -6,6 +6,7 @@ This file is used to list changes made in each version of the sysinternals cookb
 
 - resolved cookstyle error: recipes/default.rb:34:5 refactor: `Chef/RedundantCode/UseCreateIfMissing`
 - resolved cookstyle error: recipes/procexp.rb:22:3 refactor: `Chef/RedundantCode/UseCreateIfMissing`
+
 ## 1.1.3 - *2021-08-31*
 
 - Standardise files with files in sous-chefs/repo-management
