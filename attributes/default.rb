@@ -18,6 +18,8 @@
 #
 
 default['sysinternals']['install_dir'] = 'C:/Program Files/SysInternals'
+default['sysinternals']['install_dir_full'] = 'C:/Program Files/SysInternals_full'
+
 default['sysinternals']['tools'] = {
   'AccessEnum' => 'http://live.sysinternals.com/AccessEnum.exe',
   'ADExplorer' => 'http://live.sysinternals.com/ADExplorer.exe',
