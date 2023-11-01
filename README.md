@@ -18,7 +18,6 @@
 
 ## License and Author
 
-
 **Author:** Julian Dunn ([jdunn@chef.io](mailto:jdunn@chef.io))
 
 **Copyright:** 2014-2017, Chef Software, Inc.
