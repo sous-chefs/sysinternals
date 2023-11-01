@@ -4,6 +4,12 @@ This file is used to list changes made in each version of the sysinternals cookb
 
 ## Unreleased
 
+- Adopt cookbook from Chef cookbooks
+- Require Chef 15.3
+- Remove travis config
+- Remove delivery
+- Update workflows
+
 ## 1.1.4 - *2022-01-18*
 
 - resolved cookstyle error: recipes/default.rb:34:5 refactor: `Chef/RedundantCode/UseCreateIfMissing`
