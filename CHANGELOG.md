@@ -2,7 +2,7 @@
 
 This file is used to list changes made in each version of the sysinternals cookbook.
 
-## Unreleased
+## 1.1.5 - *2023-11-01*
 
 - Adopt cookbook from Chef cookbooks
 - Require Chef 15.3
