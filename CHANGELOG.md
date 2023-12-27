@@ -9,6 +9,7 @@ This file is used to list changes made in each version of the sysinternals cookb
 - Remove travis config
 - Remove delivery
 - Update workflows
+- Fix markdown
 
 ## 1.1.4 - *2022-01-18*
 
