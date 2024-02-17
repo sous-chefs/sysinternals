@@ -2,7 +2,7 @@
 
 This file is used to list changes made in each version of the sysinternals cookbook.
 
-## Unreleased
+## 1.1.6 - *2024-02-17*
 
 ## 1.1.5 - *2023-11-01*
 
