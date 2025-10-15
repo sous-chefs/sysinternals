@@ -29,7 +29,7 @@ default['sysinternals']['tools'] = {
 }
 
 default['sysinternals']['procexp']['name'] = 'Process Explorer'
-default['sysinternals']['procexp']['url'] =  'http://live.sysinternals.com/procexp.exe'
+default['sysinternals']['procexp']['url'] = 'http://live.sysinternals.com/procexp.exe'
 default['sysinternals']['procexp']['replace_taskmgr'] = true
 
 default['sysinternals']['full_suite']['url']      = 'http://download.sysinternals.com/files/SysinternalsSuite.zip'
