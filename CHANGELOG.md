@@ -2,6 +2,13 @@
 
 This file is used to list changes made in each version of the sysinternals cookbook.
 
+## [1.1.10](https://github.com/sous-chefs/sysinternals/compare/1.1.9...v1.1.10) (2025-10-16)
+
+
+### Bug Fixes
+
+* **ci:** Update workflows to use release pipeline ([#32](https://github.com/sous-chefs/sysinternals/issues/32)) ([5857722](https://github.com/sous-chefs/sysinternals/commit/5857722abfd9e4185fcd50f51a83958cba8326df))
+
 ## 1.1.5 - *2023-11-01*
 
 * Adopt cookbook from Chef cookbooks
