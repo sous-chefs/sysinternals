@@ -1,6 +1,11 @@
 ---
 driver: { name: exec }
 transport: { name: exec }
+provisioner:
+  name: chef_infra
+  product_name: cinc
+  install_strategy: skip
+  policyfile_path: Policyfile.rb
 
 platforms:
   - name: macos-latest
